@@ -1,0 +1,148 @@
+* {
+	font-family: 'Montserrat', sans-serif !important;
+}
+h1, p {
+	line-height: 180%;
+}
+button {
+	text-transform: capitalize !important;
+	padding: .8rem 1.5rem !important;
+}
+.loader svg {
+	width: 100px;
+	height: 100px;
+}
+.navbar-light .navbar-toggler {
+	border: none;
+}
+.social-s {
+	padding: 0px 5px;
+}
+.mt-10 {
+	margin-top: 50px;
+}
+.caption h1::before {
+	position: absolute;
+    width: 60px;
+    height: 5px;
+    background: #000;
+    left: 16px;
+    top: -20px;
+    content: "";
+}
+.video-text {
+	display: none;
+}
+.white {
+	background: #fff;
+	box-shadow: 0 3px 7px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.play-widget {
+	width: 100px;
+	height: 100px;
+}
+.pc-mobile {
+	display: none;
+}
+.play-path {
+	fill: none;
+	stroke: #ffffff;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 12px;
+}
+.action-m-r, .action-m-l {
+	border-radius: 0px;
+}
+.svg-inline--fa.fa-w-9 {
+	    width: .5625em;
+}
+.social-icons {
+	display: inline-block;
+	float: right;
+}
+.icon {
+	margin-left: 10px;
+}
+.icon svg {
+	width: 15px;
+}
+.comp-text {
+	font-size: 11px;
+	font-weight: 500;
+}
+@media (max-width: 575.98px) {
+	.title-caption p {
+		line-height: 100%;
+	}
+	.order-lg-2 {
+		display: none;
+	}
+	.main {
+		margin-top: 100px;
+	}
+	.fs-2 {
+		font-size: 1.18rem;
+	}
+	.pc-mobile {
+		display: block;
+		margin-left: 0px !important;
+		padding: 0px !important;
+
+	}
+	.pc-mobile .play-widget {
+		width: 30px;
+		height: 30px;
+		margin: 0px !important;
+	}
+	.video-text {
+		display: block;
+		color: #000 !important;
+		font-size: 13px;
+		padding-left: 15px;
+		font-weight: 600;
+	}
+	.play-path {
+		stroke: #000;
+		stroke-width: 20px;
+
+	}
+	.video-text, .play-widget {
+		display: inline-block !important;
+	}
+	.action {
+		
+	}
+	.action-m-l {
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+	    width: 50%;
+	    padding: 30px;
+	    background: #cecece !important;
+	    border: none;
+	    margin-bottom: 0px !important;
+	}
+	.action-m-r {
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+	    width: 50%;
+	    padding: 30px;
+	    border: none;
+	    margin-bottom: 0px !important;
+	}
+	.signup-illus {
+		display: none;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }
